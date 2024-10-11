@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b55cb3ca95a8f3e418be2f1aa416e569, type: 3}
+  m_Name: Grass
+  m_EditorClassIdentifier: 
+  id: grass
+  spr: {fileID: 21300000, guid: 77ffc2b5db582d44a90565066102d1fb, type: 3}
+  max: 14
+  maxFind: 2
+  pickup: 1
+  removeNeedles: 0

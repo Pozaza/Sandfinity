@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6202164911239303595
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4388191585ea44bb892b7a3954c42607, type: 3}
+  m_Name: Bleed
+  m_EditorClassIdentifier: 
+  active: 1
+  enable:
+    m_OverrideState: 1
+    m_Value: 1
+  bleedMode:
+    m_OverrideState: 1
+    m_Value: 0
+  bleedAmount:
+    m_OverrideState: 1
+    m_Value: 4
+  bleedDebug:
+    m_OverrideState: 1
+    m_Value: 0
+  mask:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+  maskChannel:
+    m_OverrideState: 1
+    m_Value: 0
+  bleedModeIndex: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: VHS
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: -6202164911239303595}
+  - {fileID: 4084653988994514207}
+  - {fileID: 1468989921726789681}
+--- !u!114 &1468989921726789681
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7669d352906143fa9d142177f6d4c3c, type: 3}
+  m_Name: LimitlessGlitch1
+  m_EditorClassIdentifier: 
+  active: 1
+  enable:
+    m_OverrideState: 1
+    m_Value: 1
+  x:
+    m_OverrideState: 1
+    m_Value: 200
+  y:
+    m_OverrideState: 1
+    m_Value: 10002
+  z:
+    m_OverrideState: 1
+    m_Value: 200
+  fade:
+    m_OverrideState: 1
+    m_Value: 1
+  amount:
+    m_OverrideState: 1
+    m_Value: 0.01
+  stretch:
+    m_OverrideState: 1
+    m_Value: 0
+  speed:
+    m_OverrideState: 1
+    m_Value: 0.528
+  rMultiplier:
+    m_OverrideState: 1
+    m_Value: 1
+  gMultiplier:
+    m_OverrideState: 1
+    m_Value: 1
+  bMultiplier:
+    m_OverrideState: 1
+    m_Value: 1
+  mask:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}
+  maskChannel:
+    m_OverrideState: 1
+    m_Value: 0
+--- !u!114 &4084653988994514207
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84d5e41f92d0f43b8b6ff8cad98e0c16, type: 3}
+  m_Name: Fisheye
+  m_EditorClassIdentifier: 
+  active: 1
+  enable:
+    m_OverrideState: 1
+    m_Value: 1
+  fisheyeType:
+    m_OverrideState: 1
+    m_Value: 0
+  bend:
+    m_OverrideState: 1
+    m_Value: 0.5
+  cutOffX:
+    m_OverrideState: 1
+    m_Value: 50
+  cutOffY:
+    m_OverrideState: 1
+    m_Value: 50
+  fadeX:
+    m_OverrideState: 1
+    m_Value: 0
+  fadeY:
+    m_OverrideState: 1
+    m_Value: 0
+  size:
+    m_OverrideState: 1
+    m_Value: 2
